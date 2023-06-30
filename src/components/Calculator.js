@@ -31,7 +31,6 @@ function Calculator() {
   };
 
   const backspace = () => {
-    console.log(result, "result", result.length, typeof result);
     setResult(result.slice(0, -1));
   };
 
